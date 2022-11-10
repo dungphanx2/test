@@ -1,0 +1,15 @@
+#EXTM3U url-tvg="http://gg.gg/epgvnn0,http://gg.gg/Epgmytv" refresh="3600" tvg-shift=0 m3uautoload=1
+
+----------------------VTVMYTV----------------------------------------------
+
+#EXTINF:-1 tvg-id="vtvcab16hd" group-title="K+MyTV" tvg-logo="https://i.imgur.com/hNjvjoT.png", ON Football HD
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://apivmx.mytvnet.vn/tv/license/widevine?vmx_device_id=ZjI5YWZiZWMtNTk5NC0zMjY2LTk3YmItN2Q5ZDFmZTlkZjIx
+http://s2129134.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv265&offset=1&nodelay=1
+
+#EXTINF:-1 type="stream" tvg-id="vtvcab3hd" group-title="K+MyTV" tvg-logo="https://i.imgur.com/QvbKaZd.png", ON Sports HD
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://apivmx.mytvnet.vn/tv/license/widevine?vmx_device_id=ZjI5YWZiZWMtNTk5NC0zMjY2LTk3YmItN2Q5ZDFmZTlkZjIx
+http://s129135.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv264&offset=1&nodelay=1
